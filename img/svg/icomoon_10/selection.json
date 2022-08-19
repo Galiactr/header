@@ -20,7 +20,7 @@
         {}
       ],
       "properties": {
-        "order": 63,
+        "order": 65,
         "id": 0,
         "name": "close_24px",
         "prevSize": 32
@@ -48,7 +48,7 @@
         {}
       ],
       "properties": {
-        "order": 64,
+        "order": 66,
         "id": 0,
         "name": "menu_40px",
         "prevSize": 32
