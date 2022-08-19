@@ -1,0 +1,53 @@
+// * COLOR
+$titleColor: #212121;
+$buttonColor: #2196f3;
+$textColor: #757575;
+$primaryIconColor: #afb1b8;
+$wightText: #ffffff;
+
+$secondaryTextColor: rgba(255, 255, 255, 0.6);
+
+// icon-button color
+$primaryIconColor: #afb1b8;
+$hoverIconColor: #ffffff;
+$formIconColor: #212121;
+$btnColor: #188ce8;
+
+// background color
+$primaryBgc: #ffffff;
+$secondaryBgc: #2f303a;
+$tertiaryBgc: #f5f4fa;
+$accentColor: #2196f3;
+$accentCard: rgba(33, 150, 243, 0.9);
+$placeholderColor: rgba(255, 255, 255, 0.6);
+$backdropColor: rgba(0, 0, 0, 0.2);
+
+// background 
+$backgroundActivity: rgba(47, 48, 58, 0.8);
+
+// * BORDER
+$headerBorder: 1px solid #ececec;
+$portfolioBorder: 1px solid #eeeeee;
+$clientsBorder: 1px solid #2196f3;
+$subscriptionFooterBorder: 1px solid rgba(255, 255, 255, 0.3);
+
+// * SHADOW
+$shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$heroShadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$portfolioShadowCard: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+$portfolioBtnShadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+$subscriptionFooterShadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+// * TRANSITION
+$transitionBgc: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionColor: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionBorder: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionBoxShadow: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionTransform: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionOpacity: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionModal: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+$transitionAnimation: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+// gap
+$cardSetGap: 30px;
