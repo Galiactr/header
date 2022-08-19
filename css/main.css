@@ -1,1 +1,41 @@
-/*# sourceMappingURL=main.css.map */
+.company-logo {
+  @ex;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header {
+  border-bottom: 2px solid black;
+}
+
+.page-header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 80px;
+}
+
+.reviews-item {
+  background-color: red;
+}
+
+.section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+}/*# sourceMappingURL=main.css.map */
