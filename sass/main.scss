@@ -1,7 +1,9 @@
-@import "./utils/basic";
 @import "./utils/variables";
 @import "./utils/breakpoint";
 @import "./utils/placeholder";
+
+@import "./components/basic";
+
 @import "./components/header/logo";
 @import "./components/header/page-header";
 @import "./components/header/nav-header";
