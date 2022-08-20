@@ -1,5 +1,13 @@
+ul {
+  list-style: none;
+}
+
 .company-logo {
-  @ex;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #03a9f4;
+  color: #fff;
 }
 
 .container {
@@ -7,6 +15,28 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  width: 480px;
+}
+
+.features-item {
+  text-align: center;
+  padding: 25px;
+  color: #fff;
+  font-size: 32px;
+}
+@media screen and (min-width: 768) {
+  .features-item {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1140) {
+  .features-item {
+    width: 33.3333%;
+  }
+}
+
+.features-item:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .page-header {
@@ -27,7 +57,20 @@
 }
 
 .reviews-item {
-  background-color: red;
+  text-align: center;
+  padding: 40px;
+  color: black;
+  font-size: 30px;
+}
+@media screen and (min-width: 768) {
+  .reviews-item {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1140) {
+  .reviews-item {
+    width: 33.3333%;
+  }
 }
 
 .section {

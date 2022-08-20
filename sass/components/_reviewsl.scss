@@ -1,13 +1,20 @@
 
-.reviews-set {
-    @extend %list;
-}
 
 .reviews-item {
      text-align: center;
      padding: 40px;
-     color: white;
-     font-size: 48px;
+     color: black;
+     font-size: 30px;
+
+     @media screen and (min-width: 768) {
+               width: 50%;
+     
+          }
+     
+          @media screen and (min-width: 1140) {
+               width: 33.3333%;
+     
+          }
 }
 
 // $colors: brown, gold, grey;

@@ -1,13 +1,21 @@
-.features-set {
-     @extend %list;
-}
 
 .features-item {
      text-align: center;
-     padding-top: 20px;
-     padding-bottom: 20px;
+     padding: 25px;
      color: #fff;
      font-size: 32px;
+
+     @media screen and (min-width: 768) {
+          width: 50%;
+          
+     }
+          @media screen and (min-width: 1140) {
+               width: 33.3333%;
+     
+          }
+}
+.features-item:not(:last-child) {
+     margin-bottom: 20px;
 }
 // $color: red, orange, blue, green, gold, greenyellow;
 // @include colorize($color, ".features-item");
