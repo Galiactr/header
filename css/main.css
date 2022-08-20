@@ -9,6 +9,9 @@ ul {
   background-color: #03a9f4;
   color: #fff;
 }
+.company-logo:hover, .company-logo:focus {
+  background-color: red;
+}
 
 .container {
   padding-left: 15px;
