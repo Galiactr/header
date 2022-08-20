@@ -9,5 +9,5 @@
      color: #fff;
      font-size: 32px;
 }
-
-@include colorize($colorOne, $colorTwo, $colorThree, $colorFour, $colorFive, $colorSix);
+// $color: red, orange, blue, green, gold, greenyellow;
+// @include colorize($color, ".features-item");

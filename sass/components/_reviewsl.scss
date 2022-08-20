@@ -1,4 +1,14 @@
 
-.reviews-item {
-     background-color: $colorOne;
+.reviews-set {
+    @extend %list;
 }
+
+.reviews-item {
+     text-align: center;
+     padding: 40px;
+     color: white;
+     font-size: 48px;
+}
+
+// $colors: brown, gold, grey;
+// @include colorize($colors, ".reviews-item");

@@ -1,9 +1,9 @@
-@mixin colorize($cilors, $baseSection) {
-     @each $color in $color {
-          $idx: index($colors, $color )
+// @mixin colorize($colors, $baseSection) {
+//      @each $color in $colors {
+//           $idx: index($colors, $color);
 
-          #($baseSection): nth-childe(#($idx)){
-               background-color: #$color);
-          }
-     }     
-}
+//           #($baseSection): nth-childe(#($idx)) {
+//                background-color: #($color);
+//           }
+//      }     
+// }
